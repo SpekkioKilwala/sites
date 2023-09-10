@@ -1,0 +1,30 @@
+:root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 500px;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.pad {
+  padding: 5px;
+}
