@@ -33,7 +33,7 @@
 .box {
   border-width: 2px;
   border-style: solid;
-  margin: 5px;
+  margin: auto;
 }
 
 .rounded {
