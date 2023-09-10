@@ -10,7 +10,11 @@
   <!-- https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-form-basics -->
   <div class="flex col fill cent">
     <div class="box rounded pad">
-      Form goes here
+      <form action="http://httpbin.org/get" method="get">
+        <label for="sheet_name">Charsheet:</label>
+        <input type="text" id="sheet_name" placeholder="Ponds" name="sheet_name">
+        <textarea name="area" id="area" cols="30" rows="10"></textarea>
+      </form>
     </div>
   </div>
 </body>
